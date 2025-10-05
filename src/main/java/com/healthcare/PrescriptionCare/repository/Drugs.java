@@ -30,15 +30,13 @@ public class Drugs {
     private String availableStock;
     private String status;
     @ManyToOne
-    @JoinColumn(name = "user_id")
-    @Column(name = "created_by_user")
-    private User createdByUser;
+    @JoinColumn(name = "created_by_user")
+    private Users createdByUser;
     @Column(name = "created_at")
     private String createdAt;
     @ManyToOne
-    @JoinColumn(name = "user_id")
-    @Column(name = "updated_by_user")
-    private User updatedByUser;
+    @JoinColumn(name = "updated_by_user")
+    private Users updatedByUser;
     @Column(name = "updated_at")
     private String updatedAt;
 
