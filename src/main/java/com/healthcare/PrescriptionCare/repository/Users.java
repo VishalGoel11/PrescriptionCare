@@ -41,6 +41,8 @@ public class Users {
     @Column(name = "update_at")
     private LocalDateTime updatedAt;
 
+    @Column(name = "status")
+    private boolean status;
 
     @PreUpdate
     protected void onUpdate() {
@@ -51,6 +53,7 @@ public class Users {
     protected void onCreate() {
         createdAt = LocalDateTime.now();
         updatedAt = LocalDateTime.now();
+        status = true;
     }
 
 }
