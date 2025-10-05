@@ -41,6 +41,7 @@ public class Users {
     @Column(name = "update_at")
     private LocalDateTime updatedAt;
 
+
     @PreUpdate
     protected void onUpdate() {
         updatedAt = LocalDateTime.now();

@@ -1,12 +1,13 @@
 package com.healthcare.PrescriptionCare.repository;
 
+
 import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
-@Table(name = "drugs")
+@Table(name = "drugs_request")
 @Data
-public class Drugs {
+public class DrugsRequest {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "drug_id")
@@ -35,5 +36,4 @@ public class Drugs {
     private String updatedByUser;
     @Column(name = "updated_at")
     private String updatedAt;
-
 }
