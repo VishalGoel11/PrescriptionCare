@@ -1,8 +1,7 @@
-package com.healthcare.PrescriptionCare.repository;
+package com.healthcare.PrescriptionCare.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.apache.catalina.User;
 
 @Entity
 @Table(name = "drugs")

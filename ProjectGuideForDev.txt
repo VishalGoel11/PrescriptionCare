@@ -1,0 +1,14 @@
+1.Project Name :
+
+- Prescription Care
+
+2. Project Description :
+
+- Digitally store the prescriptions written by tDoctor to it's patient which will be received by the registered Pharmacist and delivered to the Patient.
+- Prescripted Drugs stock can be managed in it.
+- Patient, Doctor & Pharmacist Data will be managed in it.
+- Prescriptions will be managed in it.
+
+1. Features it will contain in it :
+
+- 

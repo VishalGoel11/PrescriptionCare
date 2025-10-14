@@ -1,6 +1,5 @@
-package com.healthcare.PrescriptionCare.repository;
+package com.healthcare.PrescriptionCare.entities;
 
-import com.healthcare.PrescriptionCare.repository.Users;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 import java.time.LocalDate;
@@ -78,4 +77,5 @@ public class Patients {
     public void setUpdatedTimestamp() {
         this.updatedAt = LocalDateTime.now();
     }
+
 }

@@ -1,13 +1,13 @@
 package com.healthcare.PrescriptionCare.services;
 
-import com.healthcare.PrescriptionCare.repository.Prescriptions;
+import com.healthcare.PrescriptionCare.entities.Prescriptions;
 
 import java.util.List;
 
 public interface PrescriptionsService {
     Prescriptions create(Prescriptions user);
-    Prescriptions update(int id, Prescriptions user);
-    void delete(int id);
+    Prescriptions update(String id, Prescriptions user);
+    void delete(String id);
     List<Prescriptions> getAllUsers();
-    Prescriptions getUserById(int id);
+    Prescriptions getUserById(String id);
 }
